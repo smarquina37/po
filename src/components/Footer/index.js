@@ -20,20 +20,22 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <FooterLinksContainer>
+        {/* <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              {/* <FooterLinkTitle>Susana Marquina</FooterLinkTitle> */}
-              {/* <SocialIcon url='https://www.linkedin.com/in/smarquina/' />
-              <SocialIcon url='https://github.com/smarquina37' /> */}
+              <FooterLinkTitle>Susana Marquina</FooterLinkTitle>
+              <SocialIcon url='https://www.linkedin.com/in/smarquina/' />
+              <SocialIcon url='https://github.com/smarquina37' /> 
             </FooterLinkItems>
           </FooterLinksWrapper>
-        </FooterLinksContainer>
+        </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
-            {/* <SocialLogo to='/'></SocialLogo> */}
+            <SocialLogo to='/'>
+              Susana Marquina
+            </SocialLogo>
             <WebsiteRights>
-              Susana Marquina &copy; {new Date().getFullYear()}
+              &copy; {new Date().getFullYear()} All rights  reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
