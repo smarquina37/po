@@ -36,7 +36,7 @@ const Navbar = ({toggle}) => {
                 About
               </NavLinks>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLinks
                 to='skills'
                 smooth={true}
@@ -48,7 +48,7 @@ const Navbar = ({toggle}) => {
                 {' '}
                 Skills
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLinks
                 to='projects'
