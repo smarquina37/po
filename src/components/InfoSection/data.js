@@ -1,13 +1,13 @@
 export const homeObjOne = {
-  id: 'about',
+  id: "about",
   lightBg: false,
   lightText: true,
   LightTextDesc: true,
   topLine: 'Susana Marquina',
   headline: 'Who I am.',
   description:
-    'Motivated Front-End Web Developer with strong collaboration, problem-solving, and organizational skills. Proficient in HTML, CSS, JavaScript, and ReactJS. A fast learner and hardworker eager to utilize my broad educational background and strong programming skills to excel as a web developer.',
-  buttonLabel: 'Contact Me',
+    'Motivated UX Designer with strong collaboration, problem-solving, and organizational skills. Proficient in HTML, CSS, JavaScript, and ReactJS. A fast learner and hardworker eager to utilize my broad educational background and strong programming skills to excel as a web developer.',
+  // buttonLabel: 'Contact Me',
   imgStart: false,
   img: 'images/susana.jpg',
   alt: 'Susana smiling',

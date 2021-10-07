@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-const Skills = () => {
-  return (
-    <>
+// const Skills = () => {
+//   return (
+//     <>
       
-    </>
-  )
-}
+//     </>
+//   )
+// }
 
-export default Skills
+// export default Skills

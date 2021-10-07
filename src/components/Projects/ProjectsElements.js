@@ -6,7 +6,7 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #FDFAE6;
 
   @media screen and (max-width: 480px) {
     height: 1300px;
@@ -58,7 +58,7 @@ export const ProjectsIcon = styled.img`
 
 export const ProjectsH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #000;
   margin-bottom: 64px;
 
   @media screen and (max-width: 480px) {

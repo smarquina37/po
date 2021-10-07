@@ -18,6 +18,7 @@ export const Nav = styled.nav`
     transition: 0.8s all ease;
   }
 `;
+
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -64,6 +65,7 @@ export const NavMenu = styled.ul`
     display: none;
   }
 `;
+
 export const NavItem = styled.li`
   height: 80px;
 `;

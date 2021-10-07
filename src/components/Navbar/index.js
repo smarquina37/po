@@ -1,8 +1,16 @@
 import React from 'react';
-import {FaBars} from 'react-icons/fa';
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from './NavbarElements';
+import { FaBars } from 'react-icons/fa';
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  MobileIcon,
+  NavMenu,
+  NavItem,
+  NavLinks
+} from './NavbarElements';
 
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
@@ -14,7 +22,7 @@ const Navbar = ({toggle}) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to='home' 
+                to='home'
                 smooth={true}
                 duration={500}
                 spy={true}
@@ -36,19 +44,6 @@ const Navbar = ({toggle}) => {
                 About
               </NavLinks>
             </NavItem>
-            {/* <NavItem>
-              <NavLinks
-                to='skills'
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact='true'
-                offset={-80}
-              >
-                {' '}
-                Skills
-              </NavLinks>
-            </NavItem> */}
             <NavItem>
               <NavLinks
                 to='projects'
@@ -58,7 +53,6 @@ const Navbar = ({toggle}) => {
                 exact='true'
                 offset={-80}
               >
-                {' '}
                 Projects
               </NavLinks>
             </NavItem>

@@ -31,7 +31,7 @@ const Footer = () => {
         </FooterLinksContainer> */}
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>
+            <SocialLogo>
               Susana Marquina
             </SocialLogo>
             <WebsiteRights>

@@ -14,7 +14,7 @@ import {
 
 const Projects = () => {
   return (
-    <ProjectsContainer id='projects'>
+    <ProjectsContainer id="projects">
       <ProjectsH1>My Projects</ProjectsH1>
       <ProjectsWrapper>
         <ProjectsCard>
